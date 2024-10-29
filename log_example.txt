@@ -1,0 +1,61 @@
+Missing values detected in ['Price', 'TotalAmount'] columns
+Total number of missing values: 21
+Missing values count: {'Price': 1, 'TotalAmount': 20}
+
+Column 'Price' has missing values at record numbers : [107]
+Record(s) with missing values:
+                                  OrderID                            CustomerID   OrderDate                             ProductID ProductCategory  Quantity   Price  TotalAmount CustomerLocation
+107  8dba6d8f-7ab8-472c-bbfa-f3a1723f31ba  df038544-31fa-4177-8267-f803ae3fa2e5  2024-09-30  bc42940c-b81a-440c-9136-8e6bd3b8cf1d            Toyz         8  259.63          NaN           Africa
+----------------------------------------------------------------------------------------------------
+
+Column 'TotalAmount' has missing values at record numbers : [1, 9, 10, 24, 45, 78, 93, 108, 125, 141, 149, 155, 166, 167, 174, 175, 184, 191, 193, 195]
+Record(s) with missing values:
+                                  OrderID                            CustomerID            OrderDate                             ProductID ProductCategory  Quantity   Price  TotalAmount CustomerLocation
+1    8f9875b3-26d8-4a8c-9324-e2803f5a0204  ede013c6-46b3-49a7-97ea-ecc0955f3565           2024-03-30  ac917e14-629d-4140-9fea-9ee12eb441ac          Sportz         4  361.35      4205.49        Australia
+9    9c689b36-aa46-4794-a601-53ea22b5df97  6d63565f-e1c7-487e-9a46-9d02f1173924           2024-09-08  6f40bc0b-5ab4-49c6-9084-e949dc88720d            Boks         5  114.22          NaN             Asia
+10   1d04fa25-a450-4eb5-8731-56b8b0977501  101c0d4c-b33f-4fa4-9cf7-f2d5067c6e85           2024-06-09  53987758-5854-4999-9b72-6c5c8d693e57            Toyz         2  357.57      1349.62        Australia
+24   8e13c327-b461-4c8f-ae16-25f34b4444b5  324e04b6-1c4c-4545-b69b-4563506dec11           2024-03-26  670d3b4f-5ab1-4c74-8ea4-a186dc203f7b           Beuty         9  357.40      2369.33    South America
+45   89cf414b-a49e-46c5-b28c-92053d4b89bc  2f7acf2f-9fbe-405b-accb-54e800ff8b11           2024-08-29  bde2f7a4-0029-4b0b-9fa6-28625ae33a0e           Beuty         6  440.12      2100.99           Europe
+78   52ec0382-4650-4244-8d24-b7622aecdf5e  7f41f949-6a47-4023-9f1c-f4b21f4801e6           2024-04-03  98e8f1d2-496f-4519-ac1f-2da66dcd732a     Electornics         3  311.78      3591.45    North America
+93   21cf320d-c615-4907-93f4-9a2ef5ad03ad  864364a8-af96-45b0-8cbb-065fda2ede5b           2024-02-02  51c23926-c70c-4488-b5af-a0b9ae26a22c          Sportz         8  251.59       891.88        Australia
+108  b68b6049-92ed-4418-aee1-3dc0e1e429cf  c4909ed7-7d5a-4b03-98ac-9d0604283ad0           2024-09-13  234c3f18-9064-4d72-820d-a7e7aef31182         Clothng        10  344.08      3750.45           Africa
+125  0e722efa-acd6-4de0-9fea-edd7f2e573e2  1dfed51f-0849-43fb-bfb1-908e65e2f858           2024-05-27  94090322-ad81-4771-b5a6-7ba8eb687a5e     Electornics        10  389.44      4542.32    North America
+141  e5fbc7cb-4c73-4ef5-ad4f-da9921f6383c  5aa8537f-c192-4dc9-a14c-9ccdc1a616c6           2024-07-17  e34f2c2f-ad42-48eb-9279-a4fdddc54167            Boks         1  126.31      2145.15           Africa
+149  6ca62a60-701b-4ea6-b889-d6c712218a43  47079ff4-fde0-40e2-92e8-f4cda752692a  2025-01-16 00:00:00  d7f0495a-9422-43c1-86ba-d44c60bb1747            Boks         8  189.12      4413.18        Australia
+155  8115fa91-382a-42fb-ab04-6f6beebc2e29  55fd0bb8-51c0-4cb1-90eb-c1e41067b9cd           2024-10-26  bb8bfcbd-74ce-4d4a-ae40-91528c16567f           Beuty         4  149.23       924.89    North America
+166  63e55888-b40d-4177-9641-7f0c516ee3ec  9af149ca-bd9c-4b4c-b89a-fb57a4d5412d           2024-02-29  d6bf5828-5798-4708-bb3d-ffe11a5f74d4           Beuty         7   77.26          NaN           Europe
+167  8950724d-7dbf-437f-8107-d458a85e8694  d7d5a664-ebaf-463c-b2a6-7c7f0c6df1bf           2024-09-09  9ea91fe1-49f3-4d6b-a37d-f6b90bd357e1            Boks         4    0.00      1155.24    South America
+174  f6307286-a3f5-460a-b0b5-70fee209b136  d544efce-d884-4876-affc-bec2de606410  2025-01-08 00:00:00  cd06a3c9-d149-4e63-b7f1-41cd3b6f2ad2            Toyz         2   73.09          NaN    North America
+175  6a73fc45-df3f-4737-b288-3dfe3bef6eef  f3e3c451-d71a-4448-8f1b-975ba375232c           2024-04-08  8525d132-2c3c-4326-8b8c-2c5e0bde3249         Clothng         4  138.30      1095.24           Africa
+184  dcc33394-4678-4a81-acb7-c5bf0e58cd63  16b8260c-8f9a-428f-8b74-9445cf676e0c           2024-05-19  61870c98-d48a-4ae0-85ad-e3c0413eab41            Toyz         4  135.37      1378.10        Australia
+191  df93e0d5-d7a6-4585-98c8-a622d53fa183  07197bf1-6369-4ce2-8959-69974e18adf1           2024-06-14  bcd4823a-edc5-4265-b82e-4074f1229a5f         Clothng         4  107.95       181.10           Africa
+193  69d1b180-f4c1-4233-91a3-c10e5df270d2  6943216a-6507-443e-82c0-777ef0fd1659           2024-10-11  d3290b13-ac23-4f14-8f4c-96d1fd81efa4     Electornics         1   21.97      1123.39           Europe
+195  8313eff6-e644-467a-8efa-7ea32e0a1f48  a83baf04-36df-4f93-88d9-39fbf4c06eab           2024-02-01  2b2bb5b9-8bb0-455e-b342-d96b1ae3be4f             Hom         9    7.59      3100.88    North America
+----------------------------------------------------------------------------------------------------
+
+****************************************************************************************************
+
+Number of records with future dates: 10
+Records with future dates indices: [19, 97, 111, 126, 128, 138, 149, 159, 174, 176]
+Records with future dates:
+                                  OrderID                            CustomerID            OrderDate                             ProductID ProductCategory  Quantity   Price  TotalAmount CustomerLocation
+19   17cd9a14-eb8f-4a44-ad9a-79a2846f2856  a71cbf0f-ac3a-4eab-bf50-57febbdb799e  2025-01-13 00:00:00  8151b349-fb1a-491a-9324-4a65d1b9bef3     Electornics         2  304.19      4633.35           Europe
+97   2dbca078-e8f4-4d30-8a4d-3590f9b46573  ece7e249-2dce-4b0b-81ee-a5822737460b  2025-01-02 00:00:00  50aac729-7172-49cf-a9a6-0326e9044701           Beuty         6  349.94      1737.29           Europe
+111  ceaf4dac-947f-48d5-8785-b355c7a2ca29  3f36b7c9-ce31-47c9-ba29-4b5f5eba9229  2025-01-13 00:00:00  7f0cb2da-99d8-4fd3-b0cf-574572ce4878         Clothng         1  387.48      3910.01           Europe
+126  eefd1aa0-65d6-47c1-a4b4-aaafab3a1d34  0dba8094-8608-427b-9209-b417482459ab  2025-01-30 00:00:00  692e0c14-9d36-40f5-9a1e-69847eaabf26         Clothng         7  163.13      1372.08           Europe
+128  0f6000f2-4cfe-4f8a-8c66-aefe62330da6  9329393d-9d73-4bef-93d0-abba7d7d5c0a  2025-01-20 00:00:00  d2fcfbfd-0bba-4b4a-8879-56f11efaab54            Toyz        10  145.78      4310.32           Africa
+138  291b0b3f-0534-4252-a6d3-b6c47810c040  105699e2-c7fb-4910-8943-0a013ce40468  2025-01-08 00:00:00  9d746ceb-f5f1-4fc8-9a61-57a95f94d967     Electornics         3  457.93      2587.43           Africa
+149  6ca62a60-701b-4ea6-b889-d6c712218a43  47079ff4-fde0-40e2-92e8-f4cda752692a  2025-01-16 00:00:00  d7f0495a-9422-43c1-86ba-d44c60bb1747            Boks         8  189.12      4413.18        Australia
+159  86cdf496-6153-4e07-9151-de92980b5c39  4b2838a7-172c-4541-ab17-fe9bf68679b9  2025-01-01 00:00:00  6916312b-8b35-40de-98f5-f2d45af5c2ae             Hom        10  484.81      4186.29        Australia
+174  f6307286-a3f5-460a-b0b5-70fee209b136  d544efce-d884-4876-affc-bec2de606410  2025-01-08 00:00:00  cd06a3c9-d149-4e63-b7f1-41cd3b6f2ad2            Toyz         2   73.09          NaN    North America
+176  01f33f11-e544-45d5-9df5-f725d31b6f93  3bf497b2-26d3-4fca-a2f8-237a2066cae8  2025-01-17 00:00:00  4d5d547a-c400-41e4-ad91-c6baa0c8c192            Boks         3   85.42      2561.95           Europe
+****************************************************************************************************
+
+Number of records with unusual high quantity (>= 100): 3
+Number of records with unusual low quantity (<= 0): 2
+
+****************************************************************************************************
+
+Validation (for TotalAmount) failed!
+Records detected with no matching TotalAmount with (Quantity * Price)
+Number of records with wrong total amount: 203
